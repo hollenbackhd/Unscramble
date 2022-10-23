@@ -16,6 +16,7 @@ class GameViewModel : ViewModel() {
     val currentScrambledWord: String
         get() = _currentScrambledWord
 
+
     init {
         Log.d("GameFragment", "GameViewModel created!")
         getNextWord()
